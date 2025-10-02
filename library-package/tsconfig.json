@@ -1,0 +1,15 @@
+{
+  "extends": "@ember/library-tsconfig",
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "paths": {
+      "library-package/*": ["./src/*"],
+    },
+    "types": [],
+    "emitDeclarationOnly": true,
+    "outDir": "./declarations",
+    "declarationDir": "./declarations",
+    "rootDir": "./src",
+  }
+}

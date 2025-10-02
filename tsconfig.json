@@ -1,0 +1,8 @@
+{
+  "references": [
+    { "path": "app-package" },
+    { "path": "library-package" }
+    
+  ],
+  "include": []
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "@ember/app-tsconfig",
+  "include": ["./src/**/*"],
+  "compilerOptions": {
+    "allowJs": true,
+    "paths": {
+      "app-package/*": ["./src/*"],
+    },
+    "types": [],
+    "skipLibCheck": false
+  }
+}
